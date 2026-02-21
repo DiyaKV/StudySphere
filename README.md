@@ -12,7 +12,7 @@
 - Member 1: Diya K Vinod - Govenment Engineering College Idukki
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://diyakv.github.io/StudySphere/
 
 ### Project Description
 StudySphere is a web-based academic productivity platform designed to help students plan smarter, avoid burnout, and stay motivated.
