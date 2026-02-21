@@ -2,54 +2,95 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# StudySphere 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Diya K Vinod - Govenment Engineering College Idukki
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+StudySphere is a web-based academic productivity platform designed to help students plan smarter, avoid burnout, and stay motivated.
+Built during a hackathon, this project combines productivity tools with emotional reinforcement to create a balanced academic ecosystem.
 
 ### The Problem statement
-[What problem are you solving?]
+
+Students often struggle with:
+- Poor study planning
+- Burnout due to unrealistic goals
+- Lack of peer collaboration
+- Low motivation consistency
+
 
 ### The Solution
-[How are you solving it?]
-
----
+We solve academic burnout by combining smart workload calculation, burnout detection, motivational reinforcement, and peer matching into one dashboard, ensuring realistic study planning while maintaining mental well-being and long-term academic sustainability.
+ 
+ ---
 
 ## Technical Details
+Built using HTML, CSS (Flexbox), and Vanilla JavaScript
+Fully client-side application (no backend)
+Two-page structure: Login + Modal-based Dashboard
+Uses localStorage for session persistence
+Study planning calculates daily workload and detects overload
+Burnout detection uses weighted scoring (sleep, study hours, pressure)
+Real-time study timer tracks focused duration
+Progress calculated as percentage of completed study hours
+Rule-based study circle matching system
+Date-based future letter unlock feature
+Dynamic UI updates using DOM manipulation
 
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used:  JavaScript, HTML,CSS
+- Tools used:  VS Code, Git, GitHub, Web browser
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Smart Study Planner
+  Calculates daily study requirements
+  Detects unrealistic workloads
+  Provides overload alerts
+
+- Feature 2: Burnout Detection System
+  Evaluates sleep and study habits
+  Generates academic health score
+  Classifies burnout level
+
+- Feature 3: Live Study Timer
+  Real-time study tracking
+  Helps measure focused study time
+  Integrated with productivity logic
+
+- Feature 4:  Academic Dashboard
+  Visualized study insights
+  Personalized student classification
+  Clean modal-based UI
+
+- Feature 5:  Study Circle Matcher
+  Matches students based on:
+  Subject
+  Study time
+  Skill level
+
+- Feature 6: Letter to Future Self
+  Write a message to your future self
+  Unlocks on selected date
+
+- Feature 7: Motivational AI Engine
+  Randomized motivational reinforcement
+  Encourages consistency and discipline
+
 
 ---
 
@@ -58,14 +99,22 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+
+No external installation is required.
+The project uses pure HTML, CSS, and JavaScript.
+Simply clone the repository:
+
+git clone https://github.com/your-username/studysphere.git
+
+Or download the ZIP file from GitHub.
+
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+
+Open the project folder and run:
+
+Open login.html in a web browser
+
 
 ### For Hardware:
 
@@ -83,14 +132,20 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![LoginImage] (login.png)
+*It shows the login page*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Dashboard](dashboard.png)
+*it shows the dashboard*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Datesetting](dashboarddate.png)
+*it shows setting a date for the locked letter to the future self*
+
+![Dashboards](dashboards.png)
+*it shows the scrolled down portion of the dashboard,*
+
+![PopUp](popup.png)
+*it shows the final result*
 
 #### Diagrams
 
